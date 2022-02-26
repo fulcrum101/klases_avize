@@ -11,4 +11,3 @@ def Citati_lapa():
     st.header('Citāti')
     skolenu()
     skolotaju()
-    st.markdown('Vairāk foto sk. [šeit](https://drive.google.com/file/d/10yG1lipqIEtd6k4Xw3HGWnfDyWjHQrNO/view?usp=sharing)')

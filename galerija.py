@@ -7,6 +7,7 @@ def Galerija_lapa():
     Modes_nedela()
     Lauki()
     Mangalsala()
+    st.markdown('Vairāk foto sk. [šeit](https://drive.google.com/drive/folders/1-8uUPxiBRxLGadHia5gIDDDJ3n4GIDOv?usp=sharing)')
 
 def Mangalsala():
     st.subheader('Klases saliedēšanas pasākums Mangaļsalā')
