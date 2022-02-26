@@ -3,6 +3,7 @@ from PIL import Image
 
 def Galerija_lapa():
     st.header('Galerija')
+    Modes_nedela()
     Lauki()
     Mangalsala()
 
@@ -17,5 +18,13 @@ def Lauki():
     st.subheader('Klases pasākums A.L. laukos')
     images_1 = [Image.open('images/Sk_Lauki/1.jpg'), Image.open('images/Sk_Lauki/2.jpg'), Image.open('images/Sk_Lauki/3.jpg')]
     images_2 = [Image.open('images/Sk_Lauki/4.jpg'), Image.open('images/Sk_Lauki/5.jpg'), Image.open('images/Sk_Lauki/6.jpg')]
+    st.image(images_1)
+    st.image(images_2)
+    st.image(Image.open('images/Sk_Lauki/7.HEIC'))
+
+def Modes_nedela():
+    st.subheader('RV1Ģ Modes nedeļa 2022')
+    images_1 = [Image.open('images/Sk_Lauki/1.jpg'), Image.open('images/Sk_Lauki/2.jpg')]
+    images_2 = [Image.open('images/Sk_Lauki/3.jpg'), Image.open('images/Sk_Lauki/4.jpg')]
     st.image(images_1)
     st.image(images_2)
