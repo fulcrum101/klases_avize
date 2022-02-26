@@ -5,9 +5,10 @@ def Galerija_lapa():
     st.header('Galerija')
     Iesvetibas()
     Modes_nedela()
+    Kvests()
     Lauki()
     Mangalsala()
-    st.markdown('Vairāk foto sk. [šeit](https://drive.google.com/drive/folders/1-8uUPxiBRxLGadHia5gIDDDJ3n4GIDOv?usp=sharing)')
+    st.markdown('Vairāk foto skatīt [šeit](https://drive.google.com/drive/folders/1-8uUPxiBRxLGadHia5gIDDDJ3n4GIDOv?usp=sharing)')
 
 def Mangalsala():
     st.subheader('Klases saliedēšanas pasākums Mangaļsalā')
@@ -34,3 +35,10 @@ def Modes_nedela():
 def Iesvetibas():
     st.subheader('RV1Ģ 10. klašu iesvētības 2022')
     st.video('https://youtu.be/XXMnTQ010XY')
+
+def Kvests():
+    st.subheader('Klase A.L. kvestā Rīgas Centrā')
+    images_1 = [Image.open('images/Kvests/1.jpeg'), Image.open('images/Kvests/2.jpeg')]
+    images_2 = [Image.open('images/Kvests/3.jpeg'), Image.open('images/Kvests/4.jpeg')]
+    st.image(images_1)
+    st.image(images_2)
