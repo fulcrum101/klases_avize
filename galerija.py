@@ -26,7 +26,7 @@ def Lauki():
 def Modes_nedela():
     st.subheader('RV1Ģ Modes nedeļa 2022')
     images_1 = [Image.open('images/Modes_nedela/1.jpg'), Image.open('images/Modes_nedela/2.jpg')]
-    images_2 = [Image.open('images/Modes_nedela/3.jpg'), Image.open('images/Modes_nedela/4.jpg')]
+    images_2 = [Image.open('images/Modes_nedela/3.JPG'), Image.open('images/Modes_nedela/4.JPG')]
     st.image(images_1)
     st.image(images_2)
 
