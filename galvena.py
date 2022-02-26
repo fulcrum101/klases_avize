@@ -8,7 +8,7 @@ def Galvena_lapa():
 
     main_image = Image.open('images/main_photo.jpeg')
     st.image(main_image, caption='10.E klase mūsu pirmajā pasakumā Mangaļsalā.')
-    st.markdown('Un šajā mājās lapā pēc mūsu klases audzinātajas pieprasījuma Jūs varat mūs iepazīt tūvāk!')
+    st.markdown('Un šajā mājās lapā pēc mūsu klases audzinātājas pieprasījuma Jūs varat mūs iepazīt tuvāk!')
 
     st.markdown('\n\n\n')
     st.markdown('Varbūt Jums būs noderīgas saites:')
