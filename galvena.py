@@ -1,6 +1,8 @@
 import streamlit as st
 from PIL import Image
 
+from easter_egg import rickroll
+
 def Galvena_lapa():
     # WELCOME TEXT
     st.markdown("```print('Čau!')```")
@@ -16,3 +18,9 @@ def Galvena_lapa():
     st.markdown("-  [Mūsu Instagram konts](https://www.instagram.com/rv1g10e/)")
     st.markdown("-  [RV1Ģ Vidusskolēnu domes Instagram konts](https://www.instagram.com/rv1g_vd/)")
     st.markdown("-  [Mūsu skolas kaimiņu Instagram konts](https://www.instagram.com/rv1g10a/)")
+
+    st.markdown('\n\n\n')
+    password = st.text_input('Secret password', 'ONLY FOR TRUE DEVELOPERS')
+    if password == '10E is the best':
+        rickroll()
+

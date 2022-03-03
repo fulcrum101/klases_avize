@@ -4,7 +4,6 @@ from galvena import Galvena_lapa
 from citati import Citati_lapa
 from galerija import Galerija_lapa
 from k_mikla import k_mikla_lapa
-from easter_egg import rickroll
 
 def main():
     st.set_page_config(
@@ -25,8 +24,6 @@ def main():
         Galerija_lapa()
     elif menu == 'Krustvārdu mīkla':
         k_mikla_lapa()
-    elif menu == '10E is the best':
-        rickroll()
 
 
 if __name__ == '__main__':
