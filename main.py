@@ -7,11 +7,12 @@ from k_mikla import k_mikla_lapa
 
 def main():
     st.set_page_config(
-        page_title="10E klases avīze",
+        page_title="E-Avīze",
         page_icon="🧊"
     )
 
-    st.title('10E klases avīze')
+    st.title('E-Avīze')
+    st.caption('10E klases avīze')
     st.sidebar.title("Sadaļa")
     menu = "Galvenā"
     menu = st.sidebar.selectbox("Izvēlāties, kādu sadaļu Jūs gribat aplūkot.",

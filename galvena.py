@@ -19,7 +19,7 @@ def Galvena_lapa():
     st.markdown("-  [RV1Ģ Vidusskolēnu domes Instagram konts](https://www.instagram.com/rv1g_vd/)")
     st.markdown("-  [Mūsu skolas kaimiņu Instagram konts](https://www.instagram.com/rv1g10a/)")
 
-    st.markdown('\n\n\n')
+    st.markdown('\n\n\n\n\n\n\n')
     password = st.text_input('Secret password', 'ONLY FOR TRUE DEVELOPERS')
     if password == '10E is the best':
         rickroll()
