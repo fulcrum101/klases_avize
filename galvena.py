@@ -19,6 +19,18 @@ def Galvena_lapa():
     st.markdown("-  [RV1Ģ Vidusskolēnu domes Instagram konts](https://www.instagram.com/rv1g_vd/)")
     st.markdown("-  [Mūsu skolas kaimiņu Instagram konts](https://www.instagram.com/rv1g10a/)")
 
+    # BYE BYE TEXT
+    st.markdown("```print('Ata!')```")
+    st.markdown('#### Novēlējumi no E-Avīzes autoriem: ####')
+    st.markdown('Vēlos Jums visiem pateikties par šiem raibajiem sešiem mēnešiem! Protams, gāja kā pa kalniem, tā pa lejām, bet tas jau arī ir tas, kas padara cilvēku dzīves interesantas. Cerams, ka, dzīvojot tālāk, mūsu klase taps arvien tuvāka, un ikviens šeit jutīsies kā otrajās mājās!')
+    st.caption('- Jaunzems Jānis Helvijs')
+    st.markdown('Ļoti ceru, ka nākamo divu gadu laikā izdosies piedzīvot daudz aizraujošu un neaizmirstamu mirkļu. Esmu pārliecināts, ka tiksim pāri visām grūtībām un veiksmīgi turpināsim mūsu ceļu!')
+    st.caption('- Raimonds Vilcāns')
+    st.markdown('Ļoti ceru, ka līdz skolas beigšanai, mūsu klase paliks saliedēta kā mēs esam tagad un vairāk. Es ar nepacietību gaidu nākamos piedzīvojumus ar "skolas ģimeni')
+    st.caption('- Veronika Lohmanova')
+    st.markdown('Novēlu kārtīgi atpūsties brīvlaikā!')
+    st.caption('- Ernests Kazakevičs')
+    # EASTER EGG
     st.markdown('\n\n\n\n\n\n\n')
     password = st.text_input('Secret password', 'ONLY FOR TRUE DEVELOPERS')
     if password == '10E is the best':
