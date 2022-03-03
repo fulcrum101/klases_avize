@@ -1,6 +1,7 @@
 import streamlit as st
 
 from galvena import Galvena_lapa
+from fakti import Fakti_lapa
 from citati import Citati_lapa
 from joki import Joki_lapa
 from k_mikla import K_mikla_lapa
@@ -19,12 +20,13 @@ def main():
     st.sidebar.title("Sadaļa")
     menu = "Galvenā"
     menu = st.sidebar.selectbox("Izvēlāties, kādu sadaļu Jūs gribat aplūkot.",
-                                    ["Galvenā", "Notikumi", "Intervijas", "Fakti", "Citāti", "Joki", "Krustvārdu mīkla", "Galerija","Pielikums"])
+                                    ["Galvenā", "Notikumi", "Intervijas", "Fakti", "Citāti", "Joki", "Krustvārdu mīkla", "Galerija"])
     if menu == "Galvenā":
         Galvena_lapa()
     ### NOTIKUMI
     ### INTERVIJAS
-    ### FAKTI
+    elif menu == "Fakti":
+        Fakti_lapa()
     elif menu == "Citāti":
         Citati_lapa()
     elif menu == "Joki":
@@ -33,7 +35,6 @@ def main():
         K_mikla_lapa()
     elif menu == "Galerija":
         Galerija_lapa()
-    ### PIELIKUMS
 
 
 
