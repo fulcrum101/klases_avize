@@ -6,10 +6,20 @@ import time
 def k_mikla_lapa():
     st.header('Krustvārdu mīkla')
     image = Image.open('images/crossword/10E_crossword.png')
+    image_answer = Image.open('images/crossword/10E_crossword_answer.png')
     st.image(image, caption='Krustvārdu mīkla par 10E. Autors: Jaunzems Jānis Helvijs')
-    FileDownloader(image, text='Lejuplādēt krustvārdu mīklu').download()
-    FileDownloader(image, filename='10E_crossword_answer', text='Lejuplādēt krustvārdu mīklas atbildi').download()
-
+    #FileDownloader(image, text='Lejuplādēt krustvārdu mīklu').download()
+    #FileDownloader(image, filename='10E_crossword_answer', text='Lejuplādēt krustvārdu mīklas atbildi').download()
+    st.download_button(
+        label="Lejuplādēt krustvārdu mīklu",
+        data=image,
+        file_name='10E_crossword.png',
+    )
+    st.download_button(
+        label="Lejuplādēt krustvārdu mīklas atbildi",
+        data=image,
+        file_name='10E_crossword_anwer.png',
+    )
 
 
 timestr = time.strftime("%Y%m%d-%H%M%S")
