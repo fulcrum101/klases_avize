@@ -17,7 +17,7 @@ timestr = time.strftime("%Y%m%d-%H%M%S")
 
 class FileDownloader(object):
 
-    def __init__(self, data, filename='10E_crossword', file_ext='png', text):
+    def __init__(self, data, text, filename='10E_crossword', file_ext='png'):
         super(FileDownloader, self).__init__()
         self.data = data
         self.filename = filename
