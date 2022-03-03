@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 
-def k_mikla_lapa():
+def K_mikla_lapa():
     st.header('Krustvārdu mīkla')
     image = Image.open('images/crossword/10E_crossword.png')
     st.image(image, caption='Krustvārdu mīkla par 10E. Autors: Jaunzems Jānis Helvijs')

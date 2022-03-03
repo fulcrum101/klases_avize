@@ -2,8 +2,11 @@ import streamlit as st
 
 from galvena import Galvena_lapa
 from citati import Citati_lapa
+from joki import Joki_lapa
+from k_mikla import K_mikla_lapa
 from galerija import Galerija_lapa
-from k_mikla import k_mikla_lapa
+
+
 
 def main():
     st.set_page_config(
@@ -19,12 +22,19 @@ def main():
                                     ["Galvenā", "Notikumi", "Intervijas", "Fakti", "Citāti", "Joki", "Krustvārdu mīkla", "Galerija","Pielikums"])
     if menu == "Galvenā":
         Galvena_lapa()
+    ### NOTIKUMI
+    ### INTERVIJAS
+    ### FAKTI
     elif menu == "Citāti":
         Citati_lapa()
+    elif menu == "Joki":
+        Joki_lapa()
+    elif menu == "Krustvārdu mīkla":
+        K_mikla_lapa()
     elif menu == "Galerija":
         Galerija_lapa()
-    elif menu == 'Krustvārdu mīkla':
-        k_mikla_lapa()
+    ### PIELIKUMS
+
 
 
 if __name__ == '__main__':
