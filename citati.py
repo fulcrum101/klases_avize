@@ -7,7 +7,6 @@ def skolenu():
     st.markdown('"Skolotāj, jūs šodien labi izskatāties." (c) Maksis')
     st.write('----------')
     st.markdown('"Suicide is just rerolls in life" (c) Roberts')
-    st.write('----------')
 
 
 def skolotaju():
@@ -17,8 +16,6 @@ def skolotaju():
     st.markdown('"Apzīmēšana ir tāpat kā tu būtu nomainījis uzvārdu un pēc tam uzzini, ka mantojumā ir miljons, un tad centies nomainīt uzvārdu atpakaļ." (c) Sk. Kriķis')
     st.write('----------')
     st.markdown('"Skolotāja kā televīzija." (c) Sk. Savicka')
-    st.write('----------')
-
 def dialogi():
     st.subheader('Zeltie dialogi')
     st.markdown('"- Ar ko jūs neesat apmierināti?!?!?! - Ar pašreizējo sistēmu" (c) Sk. Vasiļevska un Raimonds')
