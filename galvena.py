@@ -12,12 +12,23 @@ def Galvena_lapa():
     st.image(main_image, caption='10.E klase mūsu pirmajā pasakumā Mangaļsalā.')
     st.markdown('Un šajā mājās lapā pēc mūsu klases audzinātājas pieprasījuma Jūs varat mūs iepazīt tuvāk!')
 
-    st.markdown('\n\n\n')
+    st.write(' ')
+    st.write(' ')
+    st.write(' ')
+    st.write(' ')
+    st.write(' ')
+
     st.markdown('Varbūt Jums būs noderīgas saites:')
     st.markdown("-  [A.L. apsveikums Ziemassvētkos](https://fulcrum101.github.io/gift_for_teacher/)")
     st.markdown("-  [Mūsu Instagram konts](https://www.instagram.com/rv1g10e/)")
     st.markdown("-  [RV1Ģ Vidusskolēnu domes Instagram konts](https://www.instagram.com/rv1g_vd/)")
     st.markdown("-  [Mūsu skolas kaimiņu Instagram konts](https://www.instagram.com/rv1g10a/)")
+
+    st.write(' ')
+    st.write(' ')
+    st.write(' ')
+    st.write(' ')
+    st.write(' ')
 
     # BYE BYE TEXT
     st.markdown("```print('Ata!')```")
