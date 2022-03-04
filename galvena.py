@@ -50,6 +50,10 @@ def Galvena_lapa():
     st.markdown('Novēlu kārtīgi atpūsties brīvlaikā!')
     st.caption('Ernests Kazakevičs')
     st.write('----------')
+    ###
+    st.markdown('Es novēlu visiem būt cilvēcīgiem jebkurā dzīves situācijā un respektēt un atbalstīt vienam otru.')
+    st.caption('Kristofers Stūris')
+    st.write('----------')
     # EASTER EGG
     st.write(' ')
     st.write(' ')

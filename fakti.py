@@ -24,4 +24,4 @@ def Fakti_lapa():
     st.write('Šogad 2 cilvēki no 10E klases piedalījās populārajā raidījumā “Gudrāks, vēl gudrāks” Latvijas Televīzījā.')
     st.write('----------')
     ###
-    st.caption('Faktus apkopoja: Veronika Lohmanova')
+    st.caption('Faktus apkopoja Veronika Lohmanova')

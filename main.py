@@ -1,6 +1,7 @@
 import streamlit as st
 
 from galvena import Galvena_lapa
+from notikumi import Notikumi_lapa
 from fakti import Fakti_lapa
 from citati import Citati_lapa
 from joki import Joki_lapa
@@ -23,7 +24,8 @@ def main():
                                     ["Galvenā", "Notikumi", "Intervijas", "Fakti", "Citāti", "Joki", "Krustvārdu mīkla", "Galerija"])
     if menu == "Galvenā":
         Galvena_lapa()
-    ### NOTIKUMI
+    elif menu == "Notikumi":
+        Notikumi_lapa()
     ### INTERVIJAS
     elif menu == "Fakti":
         Fakti_lapa()
