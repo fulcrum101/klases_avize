@@ -3,6 +3,7 @@ from PIL import Image
 
 def Galerija_lapa():
     st.header('Galerija')
+    Savicka()
     Iesvetibas()
     Modes_nedela()
     Kvests()
@@ -42,3 +43,8 @@ def Kvests():
     images_2 = [Image.open('images/Kvests/3.jpeg'), Image.open('images/Kvests/4.jpeg')]
     st.image(images_1)
     st.image(images_2)
+
+def Savicka():
+    st.subheader('Sk. Savickas un 10E klases gleznas "Pēdējais vakarēdiens" interpretācija')
+    images = [Image.open('images/savickas_stunda/maksla_1.jpeg'), Image.open('images/savickas_stunda/maksla_2.jpeg')]
+    st.image(images)

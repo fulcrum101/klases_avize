@@ -3,7 +3,7 @@ import streamlit as st
 def Fakti_lapa():
     st.header('Fakti')
     ### 1
-    st.write('Visaugstākais cilvēks mūsu klasē ir Kārlis Zeidaks.')
+    st.write('Visgarākais cilvēks mūsu klasē ir Kārlis Zeidaks.')
     st.write('----------')
     ### 2
     st.write('Visīsakais cilvēks mūsu klasē ir Roberts Leizāns.')
@@ -21,7 +21,7 @@ def Fakti_lapa():
     st.write('10E klases 1. dāvana klases audzinātājai A.L. bija dāvanu karte kafijas veikalā.')
     st.write('----------')
     ### 7
-    st.write('Šogad 2 cilvēki no 10E klases piedalījās populārajā raidījumā “Gudrāks, vēl gudrāks” Latvijas Televīzījā.')
+    st.write('Šogad 3 cilvēki no 10E klases piedalījās populārajā raidījumā “Gudrāks, vēl gudrāks” Latvijas Televīzījā.')
     st.write('----------')
     ###
     st.caption('Faktus apkopoja Veronika Lohmanova')
