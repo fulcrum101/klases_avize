@@ -18,7 +18,7 @@ def Mangalsala():
     st.markdown('Pēc A.L. iniciatīvas pirmais pasākums bija mūsu ekskursija, klases saliedēšanas pasākums Mangaļsalā. 2022. gada 20. septembrī pēc stundām mēs visi kopā devāmies jaunajā, pārsteidzošajā ceļojumā. Ar 24. autobusu (Abrenes iela – Mangaļsala) mēs braucām no Inženieru ielas līdz Mangaļsalai. Tur mūs jau gaidīja jautrie pasākuma vadītāji un tā mēs sākam rakstīt mūsu klases piedzīvojumu grāmatu.')
     image = Image.open('images/Mangalsala/5.jpg')
     st.image(image)
-    st.markdown('Vairāk foto [šeit](https://share.streamlit.io/fulcrum101/klases_avize/main.py#klases-salied-anas-pas-kums-manga-sal).')
+    st.markdown("Vairāk foto [šeit]('#klases-salied-anas-pas-kums-manga-sal').")
     st.write('----------')
 
 def Lauki():
@@ -27,7 +27,7 @@ def Lauki():
     image = Image.open('images/notikumi/ugunskuris.jpg').rotate(270)
     st.image(image)
     st.markdown('Un pēc salīdzinoši īsa miega modinātājs, dažiem par nelaimi, zvana! Sešos no rīta jau vilciens klāt. Noguruši, tomēr laimīgi, mēs atbraucām atpakaļ uz mūsu mīļo skolu. Šī bija otrā lapa mūsu klases piedzīvojumu grāmatā. Kā gudri ļaudis saka – viena piedzīvojuma beigas ir otra sākums.')
-    st.markdown('Vairāk foto [šeit](https://share.streamlit.io/fulcrum101/klases_avize/main.py#klases-pas-kums-a-l-laukos).')
+    st.markdown("Vairāk foto [šeit]('#klases-pas-kums-a-l-laukos').")
     st.write('----------')
 
 def Modes_nedela():
@@ -37,7 +37,7 @@ def Modes_nedela():
     st.markdown('Nav šaubu, ka modes nedēļa ir viena no iespaidīgākajiem notikumiem skolas dzīvē. Katru gadu vienas nedēļas laikā skolēni var īsti izpausties – izskatu diktē tikai viņi paši. Mūsu klase noteikti nepalaida garām iespēju parādīt sevi.')
     images = [Image.open('images/notikumi/modes_nedela_1.jpeg'), Image.open('images/notikumi/modes_nedela_2.jpeg'), Image.open('images/notikumi/modes_nedela_3.jpeg')]
     st.image(images)
-    st.markdown('Vairāk foto [šeit](https://share.streamlit.io/fulcrum101/klases_avize/main.py#rv1-modes-nede-a-2022).')
+    st.markdown("Vairāk foto [šeit]('#rv1-modes-nede-a-2022').")
     st.markdown(' ')
     st.markdown('Beep-boop-boop. Saņemts uzdevums no RV1Ģ VD. Mūsu klases izaicinājums bija nofilmēt veikala "RIMI" reklāmu. Skolas ģimenes fantāzija arī šoreiz nepievīla. Žūrija pat piešķīra mums Viszvaigžņotākās reklāmas titulu! Mēs visi priekpilni pavadījām laiku un pat saņemam kādu īpašu balvu! Tik foršs piedzīvojums!')
     st.video('https://youtu.be/XXMnTQ010XY')

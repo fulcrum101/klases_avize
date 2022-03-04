@@ -36,7 +36,7 @@ def Galvena_lapa():
     st.write('----------')
     ###
     st.markdown('Vēlos Jums visiem pateikties par šiem raibajiem sešiem mēnešiem! Protams, gāja kā pa kalniem, tā pa lejām, bet tas jau arī ir tas, kas padara cilvēku dzīves interesantas. Cerams, ka, dzīvojot tālāk, mūsu klase taps arvien tuvāka, un ikviens šeit jutīsies kā otrajās mājās!')
-    st.caption('Jaunzems Jānis Helvijs')
+    st.caption('Jānis Helvijs Jaunzems')
     st.write('----------')
     ###
     st.markdown('Ļoti ceru, ka nākamo divu gadu laikā izdosies piedzīvot daudz aizraujošu un neaizmirstamu mirkļu. Esmu pārliecināts, ka tiksim pāri visām grūtībām un veiksmīgi turpināsim mūsu ceļu!')
